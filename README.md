@@ -21,7 +21,7 @@ I try to keep it updated so that it will work always with every iso. Maybe, I'll
 - [x] UEFI or Bios
 - [ ] AUR Helper
 - [ ] Multilib in pacman
-- [ ] Encryption
+- [ ] Disk/Partition Encryption
 
 <br>
 
