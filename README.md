@@ -22,6 +22,7 @@ I try to keep it updated so that it will work always with every iso.
 - [x] UEFI or Bios
 - [ ] AUR Helper
 - [ ] Multilib in pacman
+- [ ] Chaotic AUR
 - [ ] Disk/Partition Encryption
 
 <br>
