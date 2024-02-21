@@ -1,11 +1,3 @@
-## Introduction
-After numerous installations of Arch Linux, which seemed endless, I aimed to streamline the process. To avoid repetitive, manual command entry, I created a script. This script, enhanced with various features, simplifies my workflow and is universally applicable.
-
-At the end, I'll publish it for you guys to use, because I think, that many of you have the problem as well.
-I try to keep it updated so that it will work always with every iso.
-
-<br>
-
 ## Table of Contents
 - [Features](#features)
 - [Installation](#installation)
