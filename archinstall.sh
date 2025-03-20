@@ -110,7 +110,7 @@ arch-chroot /mnt /bin/bash -c "echo LANG=en_US.UTF8 > /etc/locale.conf"
 arch-chroot /mnt /bin/bash -c "echo KEYMAP=$CTRCODE > /etc/vconsole.conf"
 arch-chroot /mnt /bin/bash -c "echo $HOSTNAME > /etc/hostname"
 arch-chroot /mnt /bin/bash -c "echo -e '127.0.0.1\tlocalhost\n::1\tlocalhost\n127.0.1.1\t$HOSTNAME.localdomain $HOSTNAME' | tee -a /etc/hosts"
-arch-chroot /mnt /bin/bash -c "echo -e 'y\n' | pacman -Syu networkmanager bash-completion linux-headers sudo iwd dialog wireless_tools wpa_supplicant mtools grub efibootmgr os-prober dosfstools base-devel"
+arch-chroot /mnt /bin/bash -c "echo -e 'y\n' | pacman -Syu networkmanager bash-completion linux-headers sudo iwd dialog wireless_tools wpa_supplicant mtools grub efibootmgr os-prober dosfstools base-devel memtest86+ memtest86+-efi"
 arch-chroot /mnt /bin/bash -c "systemctl enable NetworkManager"
 arch-chroot /mnt /bin/bash -c "echo -e '$ROOTPASSWD\n$ROOTPASSWD' | passwd"
 if [ "$option" == "u" ]; then
