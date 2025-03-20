@@ -47,7 +47,7 @@ You need to know the following things:
 After you entered them, you can lay back and depending on your internet speed take less than 4min for your archlinux installation.
 
 ## Custom
-[Download Link](https://mega.nz/file/hpN2HZRY#HlZec2F4VIgUP11KMmoBSnvsfxFCojvwxkwIq_XKwv0)
+[Download Link](https://github.com/xXPerditorXx/linuxinstall/releases/tag/iso)
 
 
 <br>
